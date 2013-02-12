@@ -20,8 +20,25 @@ git branch -a
 # merge (fetch+merge)
 
 git fetch
+
+        $ gs
+        # On branch master
+        # Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+        #
+
 git merge origin/master
 git push
+
+# merge (pull)
+
+git pull
+gs
+
+        $ gs
+        # On branch master
+        nothing to commit (working directory clean)
+
+
 
 
 
