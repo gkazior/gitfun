@@ -1,3 +1,20 @@
+# first commit
+
 git add command.txt
 git commit -m "added a file command.txt"
 git push origin master
+
+
+# clone
+
+mkdir tmp
+cd tmp
+git clone git@github.com:gkazior/gitfun.git
+cd gitfun
+git branch -a
+
+        * master
+        remotes/origin/HEAD -> origin/master
+        remotes/origin/master
+
+#
