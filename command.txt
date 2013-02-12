@@ -21,6 +21,7 @@ git branch -a
 
 git fetch
 git merge origin/master
+git push
 
 
 
