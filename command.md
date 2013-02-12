@@ -1,17 +1,17 @@
 # first commit
 
-git add command.txt
-git commit -m "added a file command.txt"
-git push origin master
+        git add command.txt
+        git commit -m "added a file command.txt"
+        git push origin master
 
 
 # clone
 
-mkdir tmp
-cd tmp
-git clone git@github.com:gkazior/gitfun.git
-cd gitfun
-git branch -a
+        mkdir tmp
+        cd tmp
+        git clone git@github.com:gkazior/gitfun.git
+        cd gitfun
+        git branch -a
 
         * master
         remotes/origin/HEAD -> origin/master
@@ -19,26 +19,24 @@ git branch -a
 
 # merge (fetch+merge)
 
-git fetch
+        git fetch
 
         $ gs
         # On branch master
         # Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
         #
 
-git merge origin/master
-git push
+        git merge origin/master
+        git push
 
 # merge (pull)
 
-git pull
-gs
+        git pull
+        gs
 
         $ gs
         # On branch master
         nothing to commit (working directory clean)
-
-
 
 
 # doc
