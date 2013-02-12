@@ -17,4 +17,10 @@ git branch -a
         remotes/origin/HEAD -> origin/master
         remotes/origin/master
 
-#
+# merge (fetch+merge)
+
+git fetch
+git merge origin/master
+
+
+
