@@ -24,4 +24,6 @@ git merge origin/master
 git push
 
 
+# doc
 
+        http://www.gitguys.com/topics/tracking-branches-and-remote-tracking-branches/
