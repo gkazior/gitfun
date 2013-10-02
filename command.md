@@ -38,6 +38,11 @@
         # On branch master
         nothing to commit (working directory clean)
 
+# git fix
+
+        git branch fix-01
+        git checkout fix-01
+        # edit this file
 
 # doc
 
