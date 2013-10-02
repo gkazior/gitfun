@@ -42,7 +42,8 @@
 
         git branch fix-01
         git checkout fix-01
-        # edit this file
+        # edit this file first commit
+        # edit this file second commit
 
 # doc
 
